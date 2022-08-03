@@ -1,4 +1,83 @@
+* {
+  padding:0;
+  margin:0;
+}
 .centered {
   text-align: center;
 }
-
+.centeredBlock {
+  margin: 0 auto;
+}
+.container {
+  padding: 30px 5px 5px 5px;
+}
+.btn {
+  display: block;
+  background-color: #333;
+  border-radius: 4px;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+.marginTop35 {
+  margin:35px auto;
+}
+.paddingTop35 {
+  padding-top: 35px;
+}
+.marginCenter {
+  margin:0 auto;
+}
+.marginLeft20 {
+  margin-left: 20px;
+}
+.marginLeft40 {
+  margin-left: 40px;
+}
+.btn:hover {
+  background-color: #777;
+}
+.row::after {
+  content: "";
+  display: table;
+  clear: all;
+  margin-bottom: 30px;
+}
+.col {
+  float: left;
+  width: calc(50% - 1px);
+}
+.leftBorder {
+  border-left: 1px solid black;
+}
+.fullWidth {
+  width:calc(100% - 20px);
+  display:block;
+  padding:5px;
+}
+.blackSquare {
+  float: left;
+  width:100px;
+  height:100px;
+  background-color: black;
+  cursor: grab;
+}
+.greySquare {
+  float: left;
+  width:100px;
+  height:100px;
+  background-color: grey;
+  margin-left: 50px;
+  cursor: no-drop;
+}
+.capitalized::first-letter {
+  text-transform: capitalize;
+}
+.postLink {
+  margin-bottom: 3px;
+  text-decoration: none;
+  display: block;
+  color: black;
+}

@@ -2,8 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## See original example at:
+https://www.youtube.com/watch?v=92qcfeWxtnY&t=2378s
 
+## Available Scripts
 In the project directory, you can run:
 
 ### `npm start`

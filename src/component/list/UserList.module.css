@@ -1,0 +1,11 @@
+.userList {
+    margin-top: 20px;
+    padding: 10px;
+}
+.user {
+    border: 1px solid black;
+    margin-bottom: 8px;
+    background-color: #CCC;
+    border-radius: 6px;
+    padding: 7px;
+}
